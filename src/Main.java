@@ -81,7 +81,7 @@ public class Main {
         {
             System.out.printf("в университет.\n");
         }
-        if(age > 24)
+        else
         {
             System.out.printf("на работу.\n");
         }
@@ -103,7 +103,7 @@ public class Main {
         {
             System.out.printf("можно кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.\n");
         }
-        if(age >=14)
+        else
         {
             System.out.printf("можно кататься без сопровождения взрослого.\n");
         }
